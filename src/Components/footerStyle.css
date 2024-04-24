@@ -1,0 +1,135 @@
+.footer{
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19,19, 19, 0.8);
+}
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+.location p{
+    line-height: 30px;
+}
+
+.right{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+.social{
+    margin-top: 1rem;
+
+}
+h4{
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+p{
+    font-size: 1.2rem;
+
+}
+
+
+/* footerStyle.css */
+
+/* Add 3D effect to icons */
+.footer-container .left .location svg,
+.footer-container .left .phone svg,
+.footer-container .left .email svg,
+.footer-container .right .social a svg {
+  /* Add a subtle shadow */
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4));
+  /* Add depth by slightly shifting the icons */
+  transform: translate3d(0, 0, 0); /* This line creates a 3D effect */
+}
+
+
+/* footerStyle.css */
+
+.footer {
+    background-color: #333; /* Background color of the footer */
+    color: #fff; /* Text color */
+    padding: 30px 0; /* Padding around the content */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-container .left,
+  .footer-container .right {
+    flex: 1;
+  }
+  
+  .footer-container .left {
+    margin-right: 20px; /* Add some space between left and right content */
+  }
+  
+  .footer-container h4 {
+    font-size: 20px; /* Heading font size */
+  }
+  
+  .location,
+  .phone,
+  .email {
+    margin-bottom: 20px; /* Add space between each section */
+  }
+  
+  .social a {
+    color: #fff; /* Social media icon color */
+    margin-right: 10px; /* Add space between social media icons */
+  }
+  
+  .social a:hover {
+    color: #00f; /* Change color on hover */
+  }
+
+/* hovering effect for icon */
+
+  .footer-container a {
+    text-decoration: none; /* Remove underline from anchor tags */
+  }
+  
+  .footer-container a:hover {
+    opacity: 0.8; /* Reduce opacity of icon on hover */
+  }
+  
+  /* Additional styles for specific icons */
+  .social a:hover {
+    transform: scale(1.2); /* Scale up the size of social media icons on hover */
+  }
+  
+
+
+@media   screen  and (max-width:640px){
+    .footer-container{
+       
+        grid-template-columns: 1fr;
+       
+    }
+    
+    
+}
+
