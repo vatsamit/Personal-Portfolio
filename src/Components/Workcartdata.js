@@ -1,12 +1,24 @@
+import pro0 from '../Assets/chatapp.jpg'
 import pro1 from '../Assets/project1.jpg'
 import pro2 from '../Assets/project2.png'
 import pro3 from '../Assets/project3.png'
 import pro4 from '../Assets/project4.png'
-import pro5 from '../Assets/project5.png'
 import pro6 from '../Assets/project6.png'
 
 
 const ProjectCardData = [
+
+    {
+        imgsrc:pro0,
+        title : "Chat-App",
+        text : 
+        " A dynamic and responsive full-stack Chat Application built with the MERN stack—MongoDB, Express.js, React.js, Node.js—and Tailwind CSS. It supports real-time messaging using Socket.io, ensuring instant communication between users. The interface features a user list on the left and a chat window on the right, with the list automatically updated to show the user with the latest message at the top.Messages are stored in MongoDB for easy retrieval, and the responsive design ensures a seamless experience across devices. The scalable architecture makes it ideal for future enhancements, providing a modern, user-friendly platform for real-time communication and JWT-based authentication.. "
+
+
+       ,
+        view : "https://chatapp-deployment-o2q4.onrender.com",
+        source :"https://github.com/vatsamit/Chatapp"
+    } ,
 {
     imgsrc:pro1,
     title : "E-Learning Platform",
@@ -15,6 +27,16 @@ const ProjectCardData = [
    ,
     view : "https://e-learning-amit.netlify.app",
     source :"https://github.com/vatsamit/Learning-react-app"
+} ,
+
+
+{
+    imgsrc:pro6,
+    title : "Personal Portfolio",
+    text : "Explore my React-powered portfolio, showcasing diverse projects with seamless navigation and dynamic user experiences. Leveraging React components, state management, and props, the site adapts to various devices and user interactions. With React Router, easily delve into project details and personal information.Discover my passion for technology and innovation in this comprehensive portfolio, encapsulating my journey, skills, and aspirations" ,
+    
+    view : "https://guessing-game-ebon.vercel.app/",
+    source :" https://github.com/vatsamit/guessing-game"
 } ,
 
 {
@@ -27,6 +49,8 @@ const ProjectCardData = [
 
     source :"https://github.com/vatsamit/blogging-firebase"
 } ,
+
+
 {
     imgsrc:pro3,
     title : "Todo AND Notekeeper-app",
@@ -46,23 +70,8 @@ const ProjectCardData = [
     source :" https://github.com/vatsamit/shoppingCart-react"
 } ,
 
-{
-    imgsrc:pro6,
-    title : "Personal Portfolio",
-    text : "Explore my React-powered portfolio, showcasing diverse projects with seamless navigation and dynamic user experiences. Leveraging React components, state management, and props, the site adapts to various devices and user interactions. With React Router, easily delve into project details and personal information.Discover my passion for technology and innovation in this comprehensive portfolio, encapsulating my journey, skills, and aspirations" ,
-    
-    view : "https://personal-portfolio-peach-six-71.vercel.app/",
-    source :"https://github.com/vatsamit/Personal-Portfolio"
-} 
 
-,{
-    imgsrc:pro5,
-    title : "Emoji-Guessing Game",
-    text : "JavaScript application that logs the value of the variable score to the console. This application serves as a debugging tool or a way to track and display the score within a larger project or game. The score variable likely holds the current score of a player or some other relevant metric." ,
-    
-    view : "https://guessing-game-ebon.vercel.app/",
-    source :" https://github.com/vatsamit/guessing-game"
-} 
+
 
 ];
 
