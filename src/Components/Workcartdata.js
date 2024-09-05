@@ -35,8 +35,8 @@ const ProjectCardData = [
     title : "Personal Portfolio",
     text : "Explore my React-powered portfolio, showcasing diverse projects with seamless navigation and dynamic user experiences. Leveraging React components, state management, and props, the site adapts to various devices and user interactions. With React Router, easily delve into project details and personal information.Discover my passion for technology and innovation in this comprehensive portfolio, encapsulating my journey, skills, and aspirations" ,
     
-    view : "https://guessing-game-ebon.vercel.app/",
-    source :" https://github.com/vatsamit/guessing-game"
+    view : "personal-portfolio-ps73.vercel.app",
+    source :"https://github.com/vatsamit/Personal-Portfolio.git "
 } ,
 
 {
