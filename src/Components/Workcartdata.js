@@ -3,7 +3,7 @@ import pro1 from '../Assets/project1.jpg'
 import pro2 from '../Assets/project2.png'
 import pro3 from '../Assets/project3.png'
 import pro4 from '../Assets/project4.png'
-import pro6 from '../Assets/project6.png'
+import pro6 from '../Assets/1.jpg'
 
 
 const ProjectCardData = [
