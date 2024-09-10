@@ -21,7 +21,7 @@ const Heroimg = () => {
       </div>
       <div className="Content">
         <p>{texts[textIndex]}</p>
-        <h1>React Developer</h1>
+        <h1>MERN Developer</h1>
         <div>
           <Link to="/project" className="btn">Projects</Link>
           <Link to="/contact" className=" btn btn-light">Contact</Link>
