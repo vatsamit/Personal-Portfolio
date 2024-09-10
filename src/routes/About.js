@@ -9,10 +9,10 @@ const About = () => {
 
   useEffect(() => {
     const texts = [
-      "I'm a friendly Frontend Developer",
+      "I'm a friendly MERN Developer",
       "I love creating awesome websites",
       "Let's build something amazing together",
-      // Add more texts here
+      
     ];
 
     let index = 0;
@@ -23,7 +23,7 @@ const About = () => {
     }, 2000);
 
     return () => clearInterval(intervalId);
-  }, []); // Empty dependency array ensures this effect runs only once after the component mounts
+  }, []); // 
 
   return (
     <div>
