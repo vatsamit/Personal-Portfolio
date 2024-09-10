@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="right">
           <h4>About Me</h4>
           <p>
-          Hey there! I'm Amit Kumar, a passionate Frontend Developer with a knack for turning ideas into visually stunning realities.</p>
+          Hey there! I'm Amit Kumar, a passionate Full-Stack Developer with a knack for turning ideas into visually stunning realities.</p>
 
           <p>💡 I thrive on the thrill of tackling fresh projects and embracing design challenges head-on. Whether it's crafting seamless user experiences or bringing creative concepts to life, I'm all in!</p>
           
