@@ -3,7 +3,7 @@ import "./AboutStyle.css";
 import React from 'react'
 import { Link } from "react-router-dom";
 import React1 from  "../Assets/react1.jpg" ;
-import React2 from  "../Assets/react2.webp" ;
+import React2 from  "../Assets/mern1.jpeg" ;
 
 const AboutContent = () => {
   return (
