@@ -25,7 +25,7 @@ const ProjectCardData = [
     text : 
     "Developed an interactive e-learning platform leveraging React's Context API for state management and React Router for seamless navigation. The platform offers comprehensive tutorials on key technologies including Node.js, Azure, SQL, and React. Users can easily navigate through the courses, track their progress, and interact with hands-on exercises. The use of context and routing ensures a smooth learning experience, facilitating understanding and engagement with the material."
    ,
-    view : "https://e-learning-amit.netlify.app",
+    view : "https://learning-react-app-iota.vercel.app/",
     source :"https://github.com/vatsamit/Learning-react-app"
 } ,
 
