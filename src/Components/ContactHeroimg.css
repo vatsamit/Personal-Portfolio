@@ -1,6 +1,6 @@
 .hero-img1 {
     width: 100vw;
-    height: 60vh;
+    height: 61vh;
      background: rgba(0,0,0,0.1);
     position: relative;
     overflow: hidden; 
@@ -20,12 +20,12 @@
 }
 
 .hero-img1 h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: black;
 }
 
 .hero-img1 p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     color: black;
 }
