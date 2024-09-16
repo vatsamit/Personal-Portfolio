@@ -1,6 +1,6 @@
 .hero-img1 {
     width: 100vw;
-    height: 61vh;
+    height: 63vh;
      background: rgba(0,0,0,0.1);
     position: relative;
     overflow: hidden; 
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1; 
-    padding-top: 48vh ;
+    padding-top: 50vh ;
 }
 
 .hero-img1 h1 {
