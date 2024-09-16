@@ -1,0 +1,40 @@
+.hero-img1 {
+    width: 100vw;
+    height: 60vh;
+     background: rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden; 
+    margin-top: 4px;
+    
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; 
+    padding-top: 48vh ;
+}
+
+.hero-img1 h1 {
+    font-size: 2.4rem;
+    color: black;
+}
+
+.hero-img1 p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width:640px) { 
+    .hero-img1 h1 {
+        font-size: 2.4rem;
+    }
+    .heading {
+        padding-top: 36vh ; 
+    }
+}

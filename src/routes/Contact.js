@@ -1,19 +1,18 @@
- import React from 'react'
- import Navbar from '../Components/Navbar';
-
+import React from 'react'
+import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
-import Heroimg2 from '../Components/HeroImg2';
+import ContactHeroimg from '../Components/ContactHeroimg'
 import Form from '../Components/Form';
- 
- const Contact = () => {
-   return (
-     <div>
-     <Navbar/>
-     <Heroimg2 heading = "CONTACT." text= "Lets Chat"/> 
-     <Form/>
-     <Footer/>
-     </div>
-   )
- }
- 
- export default Contact
+
+const Contact = () => {
+  return (
+    <div>
+    <Navbar/>
+    <ContactHeroimg heading = "CONTACT." text= "Lets Chat"/> 
+    <Form/>
+    <Footer/>
+    </div>
+  )
+}
+
+export default Contact ;

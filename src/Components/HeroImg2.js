@@ -17,4 +17,4 @@ class Heroimg2 extends Component  {
 }
 }
 
-export default Heroimg2
+export default Heroimg2 ;

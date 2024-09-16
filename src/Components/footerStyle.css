@@ -49,26 +49,27 @@ p{
 }
 
 
-/* footerStyle.css */
 
-/* Add 3D effect to icons */
+
+
 .footer-container .left .location svg,
 .footer-container .left .phone svg,
 .footer-container .left .email svg,
 .footer-container .right .social a svg {
-  /* Add a subtle shadow */
+  /*  subtle shadow */
+
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.4));
-  /* Add depth by slightly shifting the icons */
-  transform: translate3d(0, 0, 0); /* This line creates a 3D effect */
+  
+  transform: translate3d(0, 0, 0); 
 }
 
 
 /* footerStyle.css */
 
 .footer {
-    background-color: #333; /* Background color of the footer */
-    color: #fff; /* Text color */
-    padding: 30px 0; /* Padding around the content */
+    background-color: #333; 
+    color: #fff; 
+    padding: 30px 0; 
   }
   
   .footer-container {
@@ -84,41 +85,41 @@ p{
   }
   
   .footer-container .left {
-    margin-right: 20px; /* Add some space between left and right content */
+    margin-right: 20px; 
   }
   
   .footer-container h4 {
-    font-size: 20px; /* Heading font size */
+    font-size: 20px; 
   }
   
   .location,
   .phone,
   .email {
-    margin-bottom: 20px; /* Add space between each section */
+    margin-bottom: 20px; 
   }
   
   .social a {
-    color: #fff; /* Social media icon color */
-    margin-right: 10px; /* Add space between social media icons */
+    color: #fff; 
+    margin-right: 10px;
   }
   
   .social a:hover {
-    color: #00f; /* Change color on hover */
+    color: #00f; 
   }
 
 /* hovering effect for icon */
 
   .footer-container a {
-    text-decoration: none; /* Remove underline from anchor tags */
+    text-decoration: none; 
   }
   
   .footer-container a:hover {
-    opacity: 0.8; /* Reduce opacity of icon on hover */
+    opacity: 0.8;
   }
   
-  /* Additional styles for specific icons */
+  
   .social a:hover {
-    transform: scale(1.2); /* Scale up the size of social media icons on hover */
+    transform: scale(1.2); 
   }
   
 
